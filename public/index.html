@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manohar K | AI & Web Developer</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Manohar K - AI Undergraduate and Web Developer Portfolio. Showcasing intelligent AI solutions, web development, and professional certifications.">
+  <meta name="keywords"
+    content="Manohar K, Portfolio, AI, Web Developer, Machine Learning, Web Development, Vignan VIIT">
+  <meta name="author" content="Manohar K">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://manohark-777.github.io/">
+  <meta property="og:title" content="Manohar K | AI & Web Developer">
+  <meta property="og:description" content="Explore my projects in AI, IoT, and Web Development.">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Manohar K | AI & Web Developer">
+  <meta property="twitter:description" content="Explore my projects in AI, IoT, and Web Development.">
+
+  <!-- Google Fonts: Outfit & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Cursor Glow Effect -->
+  <div class="cursor-glow" id="cursor-glow"></div>
+
+  <!-- Background Animated Orbs / Particles -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div id="particles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">◈</span> <span class="logo-text">Portfolio</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="about" class="hero section-padding">
+      <div class="container hero-content">
+        <div class="hero-text" data-reveal="fade-up">
+          <p class="hero-subtitle">HELLO, I'M</p>
+          <h1 class="hero-name glitch" data-text="MANOHAR K">MANOHAR K</h1>
+          <p class="hero-role">I'm a <span class="highlight">Web Developer</span></p>
+
+          <div class="about-me-focus">
+            <h3
+              style="color: var(--accent); margin-bottom: 1rem; font-family: var(--font-mono); font-size: 1rem; letter-spacing: 2px;">
+              ABOUT ME</h3>
+            <p class="hero-desc">Artificial Intelligence undergraduate at Vignan's Institute of Information Technology
+              with
+              practical knowledge of machine learning and data analysis. Currently a FSD web development intern,
+              actively building intelligent solutions and earning certifications in <strong>Prompt Engineering (IBM
+                Skills)</strong>,
+              <strong>Python Upskilling (GeeksforGeeks)</strong>, and Cisco.
+            </p>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#portfolio" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-stats" data-reveal="fade-up" data-delay="0.2s">
+          <div class="stat-item">
+            <h3 class="stat-num" data-val="2">0</h3>
+            <p>AI Projects</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-num" data-val="1">0</h3>
+            <p>Web Dev Internship</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-num" data-val="7">0</h3>
+            <p>Certifications</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+          <p class="section-desc">What I do best to help you scale your business.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card" data-tilt data-reveal="fade-up">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <!-- SVG Icon -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3 class="service-title">Web Design</h3>
+            <p class="service-desc">Creating beautiful, responsive, and intuitive website designs.</p>
+            <ul class="service-features">
+              <li>Responsive Layouts</li>
+              <li>Interactive Elements</li>
+              <li>Modern Aesthetics</li>
+            </ul>
+            <button class="btn-arrow" aria-label="Learn more">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Card 2 (Featured) -->
+          <div class="service-card featured" data-tilt data-reveal="fade-up" data-delay="0.1s">
+            <div class="card-glow"></div>
+            <div class="featured-badge">Featured</div>
+            <div class="service-icon">
+              <!-- AI Icon -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+            </div>
+            <h3 class="service-title">AI Solutions</h3>
+            <p class="service-desc">Developing intelligent applications using Python and machine learning.</p>
+            <ul class="service-features">
+              <li>Python Development</li>
+              <li>AI Agents</li>
+              <li>Data Analysis</li>
+            </ul>
+            <button class="btn-arrow" aria-label="Learn more">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card" data-tilt data-reveal="fade-up" data-delay="0.2s">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Full Stack Web Dev</h3>
+            <p class="service-desc">Building end-to-end web applications with robust backends.</p>
+            <ul class="service-features">
+              <li>Frontend Integration</li>
+              <li>Database Management</li>
+              <li>API Development</li>
+            </ul>
+            <button class="btn-arrow" aria-label="Learn more">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <h2 class="section-title">Selected <span class="gradient-text">Works</span></h2>
+        </div>
+
+        <div class="portfolio-filters" id="portfolio-filters" data-reveal="fade-up">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ai">AI Projects</button>
+          <button class="filter-btn" data-filter="web">Web Dev</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid" data-reveal="fade-up">
+          <!-- Project 1: Water Quality -->
+          <div class="portfolio-item" data-category="ai">
+            <div class="portfolio-card style-alt-2">
+              <div class="card-content">
+                <div class="portfolio-emoji">💧</div>
+                <h3 class="portfolio-title">Intelligent Water Quality Monitoring & Prediction System</h3>
+                <p class="portfolio-desc">Developed an IoT-based system using Arduino Uno and ESP8266. Measures TDS and
+                  predict future trends and built a mobile app for analytics and safety alerts.
+                </p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">IoT</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Arduino</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">ML</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Thingspeak</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://coruscating-muffin-b364f6.netlify.app/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+          <!-- Project 2: Smart Medicine Reminder -->
+          <div class="portfolio-item" data-category="ai">
+            <div class="portfolio-card style-alt-1">
+              <div class="card-content">
+                <div class="portfolio-emoji">🤖</div>
+                <h3 class="portfolio-title">Smart Medicine Reminder</h3>
+                <p class="portfolio-desc">AI-Based system featuring dual-user architecture (mentee–consumer), real-time
+                  notifications, and Med AI assistant for drug info. Includes adherence tracking and automated alerts
+                  for elderly-friendly usability.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">React</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Firebase</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Med
+                    AI</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://medicare-public-final.netlify.app/" target="_blank"
+                  class="btn btn-outline small-btn">View Live
+                  &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+      <div class="container skills-container">
+        <div class="skills-info" data-reveal="fade-up">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title">My Core <span class="gradient-text">Skills</span></h2>
+          <p class="skills-desc">I specialize in creating pixel-perfect, responsive, and performance-optimized digital
+            experiences. With a keen eye for aesthetics, I bridge the gap between design and development.</p>
+          <a href="#contact" class="btn btn-outline" style="margin-top: 1.5rem;">Hire Me</a>
+        </div>
+
+        <div class="skills-bars" id="skills-bars" data-reveal="fade-up" data-delay="0.2s">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">CSS</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="70%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Python</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Java</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="70%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">SQL</span>
+              <span class="skill-pct">20%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="20%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Tools: VS Code, Git, Colab, Netlify</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-padding">
+      <div class="container">
+        <div class="section-header text-center" data-reveal="fade-up">
+          <h2 class="section-title">My <span class="gradient-text">Journey</span></h2>
+        </div>
+
+        <div class="timeline" data-reveal="fade-up">
+          <div class="timeline-line"></div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">💼</div>
+            <div class="timeline-content">
+              <span class="timeline-badge">Intership</span>
+              <h3 class="timeline-title">FSD Web Development Intern</h3>
+              <p class="timeline-subtitle">Vignan's Institute of Information Technology</p>
+              <p class="timeline-desc">Working on full-stack web development projects, building responsive and dynamic
+                user interfaces using modern technologies.</p>
+              <div class="timeline-tags">
+                <span>Frontend</span><span>Backend</span><span>FSD</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">🎓</div>
+            <div class="timeline-content">
+              <span class="timeline-badge">B.Tech (2028)</span>
+              <h3 class="timeline-title">Vignan's Institute of Information Technology</h3>
+              <p class="timeline-subtitle">Visakhapatnam</p>
+              <p class="timeline-desc">Undergraduate student focusing on AI and Full Stack Web Development.</p>
+              <div class="timeline-tags">
+                <span>AI</span><span>Web Dev</span><span>FSD</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">📚</div>
+            <div class="timeline-content">
+              <span class="timeline-badge">Intermediate (2024)</span>
+              <h3 class="timeline-title">Sri Chaitanya Jr College</h3>
+              <p class="timeline-subtitle">Higher Secondary Education</p>
+              <p class="timeline-desc">Completed intermediate education with a strong foundation in sciences.</p>
+              <div class="timeline-tags">
+                <span>Mathematics</span><span>Sciences</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">🎒</div>
+            <div class="timeline-content">
+              <span class="timeline-badge">Schooling (2022)</span>
+              <h3 class="timeline-title">Sri Chaitanya Techno School</h3>
+              <p class="timeline-subtitle">High School</p>
+              <p class="timeline-desc">Discovered a passion for learning and basic computer skills.</p>
+              <div class="timeline-tags">
+                <span>Foundation</span><span>Creativity</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+      <div class="container contact-container">
+        <div class="contact-info" data-reveal="fade-up">
+          <h2 class="section-title">Let's build something <br><span class="gradient-text">epic.</span></h2>
+          <p class="contact-desc">Have a project in mind or just want to say hi? Drop a message, and I'll get back to
+            you as soon as possible!</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Location</h4>
+                <p>Visakhapatnam</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <p>kmanohar17072007@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 6281476340</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/ManoharK-777" aria-label="GitHub"><svg viewBox="0 0 24 24" width="24"
+                height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg></a>
+            <a href="https://www.linkedin.com/in/manohar-k-30245b330" aria-label="LinkedIn"><svg viewBox="0 0 24 24"
+                width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="contact-form-container glass-card" data-reveal="fade-up" data-delay="0.2s">
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/mqaeajyl" method="POST"
+            novalidate>
+            <div class="form-group">
+              <input type="text" id="name" name="name" required placeholder=" ">
+              <label for="name">Name</label>
+              <div class="input-glow"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required placeholder=" ">
+              <label for="email">Email</label>
+              <div class="input-glow"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" required placeholder=" ">
+              <label for="subject">Subject</label>
+              <div class="input-glow"></div>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" required placeholder=" " rows="4"></textarea>
+              <label for="message">Message</label>
+              <div class="input-glow"></div>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">
+              <span>Send Message</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+            <p class="form-status" id="form-status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">
+        <span class="logo-icon">◈</span> <span class="logo-text">Portfolio</span>
+      </div>
+      <p>&copy; <span id="year">2026</span> All Rights Reserved. Designed by Manohar K.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

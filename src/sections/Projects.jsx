@@ -20,7 +20,7 @@ const Projects = () => {
             tags: ['React', 'Firebase', 'Tailwind'],
             icon: <Pill className="text-red-500 animate-bounce" />,
             github: 'https://github.com',
-            live: 'https://e877c777.medcareai.pages.dev/',
+            live: 'https://7fe81b9f.medcareai.pages.dev/',
         },
         {
             title: 'Water Quality Monitoring',

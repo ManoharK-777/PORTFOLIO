@@ -37,6 +37,16 @@
 </head>
 
 <body>
+  <!-- Loading Screen -->
+  <div id="loader" class="loader-wrapper">
+    <div class="loader-content">
+      <div class="loader-logo">MANOHAR K</div>
+      <div class="loader-bar-container">
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Cursor Glow Effect -->
   <div class="cursor-glow" id="cursor-glow"></div>
 
@@ -76,18 +86,12 @@
         <div class="hero-text" data-reveal="fade-up">
           <p class="hero-subtitle">HELLO, I'M</p>
           <h1 class="hero-name glitch" data-text="MANOHAR K">MANOHAR K</h1>
-          <p class="hero-role">I'm a <span class="highlight">Web Developer</span></p>
+          <p class="hero-role">I'm a <span class="highlight">Full Stack Developer</span></p>
 
-          <div class="about-me-focus">
-            <h3
-              style="color: var(--accent); margin-bottom: 1rem; font-family: var(--font-mono); font-size: 1rem; letter-spacing: 2px;">
-              ABOUT ME</h3>
-            <p class="hero-desc">Artificial Intelligence undergraduate at Vignan's Institute of Information Technology
-              with
-              practical knowledge of machine learning and data analysis. Currently a FSD web development intern,
-              actively building intelligent solutions and earning certifications in <strong>Prompt Engineering (IBM
-                Skills)</strong>,
-              <strong>Python Upskilling (GeeksforGeeks)</strong>, and Cisco.
+          <div class="about-me-focus" style="margin-left: 2.5rem; padding-left: 1.5rem; border-left: 2px solid rgba(255, 255, 255, 0.15); margin-bottom: 2.5rem;">
+            <p class="hero-desc" style="font-size: 0.95rem; line-height: 1.8; color: var(--text-muted); text-align: justify; margin: 0;">
+              <span style="color: var(--accent); font-family: var(--font-mono); font-size: 1.1rem; letter-spacing: 2px; font-weight: bold; margin-right: 0.5rem;">ABOUT ME —</span>
+              Artificial Intelligence undergraduate at Vignan's Institute of Information Technology with practical expertise in building intelligent systems and full-stack web applications. As an AI System Engineer building web & cloud solutions, I am currently an FSD Web Development Intern at <strong>Cognifyz Technologies</strong>, having built <strong>15+ diverse projects</strong> spanning IoT, Machine Learning, and React-based applications. Passionate about bridging the gap between AI and modern web architectures, backed by credentials in <strong>Prompt Engineering (IBM Skills)</strong>, <strong>Python Upskilling (GeeksforGeeks)</strong>, and Cisco.
             </p>
           </div>
 
@@ -99,15 +103,15 @@
 
         <div class="hero-stats" data-reveal="fade-up" data-delay="0.2s">
           <div class="stat-item">
-            <h3 class="stat-num" data-val="2">0</h3>
-            <p>AI Projects</p>
+            <h3 class="stat-num" data-val="15">0</h3>
+            <p>Projects</p>
           </div>
           <div class="stat-item">
-            <h3 class="stat-num" data-val="1">0</h3>
-            <p>Web Dev Internship</p>
+            <h3 class="stat-num" data-val="4">0</h3>
+            <p>Internships</p>
           </div>
           <div class="stat-item">
-            <h3 class="stat-num" data-val="7">0</h3>
+            <h3 class="stat-num" data-val="10">0</h3>
             <p>Certifications</p>
           </div>
         </div>
@@ -250,6 +254,7 @@
               <div class="bg-shape"></div>
             </div>
           </div>
+
           <!-- Project 2: Smart Medicine Reminder -->
           <div class="portfolio-item" data-category="ai">
             <div class="portfolio-card style-alt-1">
@@ -278,7 +283,7 @@
               <div class="bg-shape"></div>
             </div>
           </div>
-          
+
           <!-- Project 3: CRM Application -->
           <div class="portfolio-item" data-category="web">
             <div class="portfolio-card style-alt-2">
@@ -299,16 +304,43 @@
                 </div>
               </div>
               <div class="portfolio-overlay">
-                <a href="https://8ee08a8f.crm-3la.pages.dev/" target="_blank"
+                <a href="https://e9384662.crm-3la.pages.dev/" target="_blank"
                   class="btn btn-outline small-btn">View Live &rarr;</a>
               </div>
               <div class="bg-shape"></div>
             </div>
           </div>
 
-          <!-- Project 4: Aura Bakes -->
+          <!-- Project 4: Varshith Medical & General Store -->
           <div class="portfolio-item" data-category="web">
             <div class="portfolio-card style-alt-1">
+              <div class="card-content">
+                <div class="portfolio-emoji">💊</div>
+                <h3 class="portfolio-title">Varshith Medical & General Store</h3>
+                <p class="portfolio-desc">An elegant e-pharmacy platform featuring product categorization, real-time search, inventory representation, and an intuitive customer check-out flow.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">React</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Tailwind CSS</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Vite</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">UI/UX</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://varshithmedicalandgeneralstore.pages.dev/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 5: Aura Bakes -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-2">
               <div class="card-content">
                 <div class="portfolio-emoji">🍰</div>
                 <h3 class="portfolio-title">Aura Bakes</h3>
@@ -325,6 +357,187 @@
               </div>
               <div class="portfolio-overlay">
                 <a href="https://web-business-j12.pages.dev/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 6: Nexus Auth -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-1">
+              <div class="card-content">
+                <div class="portfolio-emoji">🔑</div>
+                <h3 class="portfolio-title">Nexus Auth</h3>
+                <p class="portfolio-desc">A secure and modern user authentication system implementing robust validation mechanisms and elegant responsive layouts.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">React</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Vite</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Auth</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://52c61885.nexus-auth.pages.dev/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 7: Unified Government Service Portal -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-2">
+              <div class="card-content">
+                <div class="portfolio-emoji">🏛️</div>
+                <h3 class="portfolio-title">Unified Government Service Portal</h3>
+                <p class="portfolio-desc">A comprehensive citizen services web portal designed to unify multiple governmental department channels into a single, cohesive user experience.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">JavaScript</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">CSS</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Vite</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">FSD</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://unifiedgovernmentserviceportal.pages.dev/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 8: NovaSync UI -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-1">
+              <div class="card-content">
+                <div class="portfolio-emoji">🎨</div>
+                <h3 class="portfolio-title">NovaSync UI</h3>
+                <p class="portfolio-desc">A premium, highly interactive dashboard and user interface library featuring custom visual themes, responsive designs, and smooth layouts.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">HTML</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">CSS</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">JavaScript</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Responsive</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://97e8b6c6.novasync-ui.pages.dev/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 9: Validation X Command Center -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-2">
+              <div class="card-content">
+                <div class="portfolio-emoji">🎛️</div>
+                <h3 class="portfolio-title">Validation X Command Center</h3>
+                <p class="portfolio-desc">A centralized control panel and dashboard demonstrating interactive validation components and advanced custom layout styles.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">HTML</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">CSS</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Dashboard</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://bca26284.validation-x-command-center.pages.dev/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 10: Contact Manager -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-1">
+              <div class="card-content">
+                <div class="portfolio-emoji">📇</div>
+                <h3 class="portfolio-title">Contact Manager</h3>
+                <p class="portfolio-desc">An intuitive and user-friendly contact management application for organizing names, numbers, and emails with an interactive user interface.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">HTML</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">CSS</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">JavaScript</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://contact-manager-six-blue.vercel.app/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 11: Rock Paper Scissors -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-2">
+              <div class="card-content">
+                <div class="portfolio-emoji">🎮</div>
+                <h3 class="portfolio-title">Rock Paper Scissors</h3>
+                <p class="portfolio-desc">An interactive classic Rock Paper Scissors web game featuring smooth transitions, score tracking, and clean gameplay controls.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">HTML</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">CSS</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">JavaScript</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">Game</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://rock-paper-scissors-alpha-lyart.vercel.app/" target="_blank"
+                  class="btn btn-outline small-btn">View Live &rarr;</a>
+              </div>
+              <div class="bg-shape"></div>
+            </div>
+          </div>
+
+          <!-- Project 12: Calculator -->
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-card style-alt-1">
+              <div class="card-content">
+                <div class="portfolio-emoji">🧮</div>
+                <h3 class="portfolio-title">Calculator</h3>
+                <p class="portfolio-desc">A sleek and responsive web calculator with a modern glassmorphism design for day-to-day calculations.</p>
+                <div class="portfolio-tags"
+                  style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">HTML</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">CSS</span>
+                  <span
+                    style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;">JavaScript</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <a href="https://caluclator-azure.vercel.app/" target="_blank"
                   class="btn btn-outline small-btn">View Live &rarr;</a>
               </div>
               <div class="bg-shape"></div>
@@ -461,9 +674,9 @@
           <div class="timeline-item">
             <div class="timeline-dot">💼</div>
             <div class="timeline-content">
-              <span class="timeline-badge">🔜 Future Internship</span>
+              <span class="timeline-badge">🔜 Cognifyz Internship</span>
               <h3 class="timeline-title">FSD Web Development Intern</h3>
-              <p class="timeline-subtitle">Future Interns</p>
+              <p class="timeline-subtitle">Cognifyz Technologies</p>
               <p class="timeline-desc">Aspiring to work on full-stack web development projects, building responsive and
                 dynamic user interfaces using modern technologies.</p>
               <div class="timeline-tags">
@@ -555,7 +768,7 @@
                   d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                 </path>
               </svg></a>
-            <a href="https://www.linkedin.com/in/manohar-k-30245b330" aria-label="LinkedIn"><svg viewBox="0 0 24 24"
+            <a href="https://www.linkedin.com/in/manohar-k-7-30245b330?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><svg viewBox="0 0 24 24"
                 width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -613,6 +826,15 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    // Loader Fade Out (Inline to prevent cache latency)
+    const loader = document.getElementById("loader");
+    if (loader) {
+        setTimeout(() => {
+            loader.classList.add("fade-out");
+        }, 1500); // 1.5s loader line animation + 0.5s fade out
+    }
+  </script>
 </body>
 
 </html>
